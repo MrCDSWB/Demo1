@@ -5,12 +5,6 @@ import java.sql.Connection;
   import java.sql.ResultSet;
   import java.sql.SQLException;
   import java.sql.Statement;
-
-          /**
-    * 数据库的工具类
-    * @author zm
-    *
-    */
           public class DBUtil {
      //eshop为数据库名称，db_user为数据库用户名db_password为数据库密码
          public static String db_url ="jdbc:mysql://localhost:3306/daer?&useSSL=false&serverTimezone=UTC";
