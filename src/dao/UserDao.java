@@ -9,12 +9,7 @@ package dao;
   import  util.DBUtil;
 
      public class UserDao {
-     public static void main(String[] args)
-
-             /**
-       * 注册
-       * @param userBean
-       */
+     public static void main(String[] args){ }
              public void reg(UserBean userBean) {
                  String sql = "insert into login(Id,Pass,Sex,Name,Xue,E_mail,Yuan,Xi,Ban,Nian,Di,Bei) values('"+userBean.getId()+"','"+userBean.getPass()+"','"+userBean.getSex()+"','"+userBean.getName()+"','"+userBean.getXue()+"','"+userBean.getE_mail()+"','"+userBean.getYuan()+"','"+userBean.getXi()+"','"+userBean.getBan()+"','"+userBean.getNian()+"','"+userBean.getDi()+"','"+userBean.getBei()+"')";
                  Connection conn = DBUtil.getConn();
