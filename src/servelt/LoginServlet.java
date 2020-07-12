@@ -7,13 +7,11 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-
 import bean.UserBean;
 import dao.UserDao;
 @WebServlet("/LoginServlet")
 public class LoginServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
-
 
     public LoginServlet() {
         super();
@@ -37,7 +35,6 @@ public class LoginServlet extends HttpServlet {
         String Ban = req.getParameter("Ban");
         String Nian = req.getParameter("Nian");
         String Bei = req.getParameter("Bei");
-
         UserDao adminDao = new UserDao();
         UserBean a=new UserBean();
         a.setId(Id);
@@ -55,7 +52,6 @@ public class LoginServlet extends HttpServlet {
         adminDao.reg(a);
         resp.sendRedirect(req.getContextPath() + "/Sussess.jsp");
     }
-
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         // TODO Auto-generated method stub
         doGet(request, response);
