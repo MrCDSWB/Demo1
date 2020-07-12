@@ -6,8 +6,7 @@ import java.sql.Connection;
   import java.sql.SQLException;
   import java.sql.Statement;
           public class DBUtil {
-     //eshop为数据库名称，db_user为数据库用户名db_password为数据库密码
-         public static String db_url ="jdbc:mysql://localhost:3306/daer?&useSSL=false&serverTimezone=UTC";
+              public static String db_url ="jdbc:mysql://localhost:3306/daer?&useSSL=false&serverTimezone=UTC";
      public static String db_user = "root";
      public static String db_password = "123";
      public static Connection getConn() {
