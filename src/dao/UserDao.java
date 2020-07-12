@@ -1,6 +1,6 @@
 package dao;
 
-import java.sql.Connection;
+  import java.sql.Connection;
   import java.sql.ResultSet;
   import java.sql.Statement;
   import java.util.ArrayList;
@@ -8,15 +8,8 @@ import java.sql.Connection;
   import  bean.UserBean;
   import  util.DBUtil;
 
-          public class UserDao {
-     public static void main(String[] args) {
-         //        List<UserBean> users=new ArrayList<UserBean>();
-         //        UserBean user=new UserBean();
-         //        user=list("1");
-         //        System.out.println(user.getId_zaibu());
-         //        checkLogin("root","root");
-
-             }
+     public class UserDao {
+     public static void main(String[] args)
 
              /**
        * 注册
