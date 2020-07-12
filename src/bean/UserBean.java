@@ -14,10 +14,10 @@ public class UserBean {
     private String di;
     private String bei;
 
-             public String getId() {
+     public String getId() {
                  return id;
              }
-     public void setId(String id) {
+      public void setId(String id) {
                 this.id = id;
            }
       public String getPass() {
@@ -35,25 +35,25 @@ public class UserBean {
       public String getName() {
                 return name;
             }
-     public void setName(String name) {
+      public void setName(String name) {
                  this.name = name;
              }
-     public String getXue() {
+      public String getXue() {
                 return xue;
             }
-     public void setXue(String xue) {
+      public void setXue(String xue) {
                  this.xue = xue;
              }
       public String getE_mail() {
                  return e_mail;
              }
-     public void setE_mail(String e_mail) {
+      public void setE_mail(String e_mail) {
                  this.e_mail = e_mail;
              }
-     public String getYuan() {
+      public String getYuan() {
                  return yuan;
             }
-     public void setYuan(String yuan) {
+      public void setYuan(String yuan) {
                  this.yuan = yuan;
             }
       public String getXi() {
@@ -71,7 +71,7 @@ public class UserBean {
       public String getNian() {
                  return nian;
              }
-     public void setNian(String nian) {
+      public void setNian(String nian) {
                  this.nian = nian;
              }
       public String getDi() {
@@ -86,8 +86,7 @@ public class UserBean {
       public void setBei(String bei) {
                  this.bei = bei;
              }
-
-              public UserBean() {}
+      public UserBean() {}
       public UserBean(String Id,String Pass,String Sex,String Name,String Xue,String E_mail,String Yuan,String Xi,String Ban,String Nian,String Di,String Bei)
      {
                  this.id=Id;
