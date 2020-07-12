@@ -1,18 +1,18 @@
 package bean;
 
 public class UserBean {
-       private String id;
-       private String pass;
-       private String sex;
-       private String name;
-       private String xue;
-       private String e_mail;
-      private String yuan;
-      private String xi;
-      private String ban;
-      private String nian;
-      private String di;
-      private String bei;
+    private String id;
+    private String pass;
+    private String sex;
+    private String name;
+    private String xue;
+    private String e_mail;
+    private String yuan;
+    private String xi;
+    private String ban;
+    private String nian;
+    private String di;
+    private String bei;
 
              public String getId() {
                  return id;
