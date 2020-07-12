@@ -6,10 +6,6 @@ import java.util.Random;
 
 public class StringUtil {
 
-    /**
-     * @param str
-     * @return
-     */
     public static int StringToInt(String str) {
         int result = 0;
         try {
@@ -20,10 +16,7 @@ public class StringUtil {
         }
         return result;
     }
-    /**
-     * @param length
-     * @return
-     */
+
     public static String getRandomString(int length) {
         String base = "abcdefghijklmnopqrstuvwxyz0123456789";
         Random random = new Random();
@@ -49,10 +42,7 @@ public class StringUtil {
         return options;
 
     }
-    /**
-     * @param str
-     * @return
-     */
+
     public static float strToFlo(String str) {
         float i = 0;
         try {
